@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # 🔹 Your Telegram bot details
 TELEGRAM_TOKEN = "8256397498:AAFe7FCI03ID-5gMRSq2p6kqmTfbeCIdTKE"
-CHAT_ID = "8256397498"   # Replace with your actual chat/group ID
+CHAT_ID = "6565944957"   # Replace with your actual chat/group ID
 
 # ✅ Health check route
 @app.route('/')
@@ -43,4 +43,5 @@ def webhook():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
+
 
